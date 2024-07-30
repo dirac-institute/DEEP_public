@@ -66,3 +66,7 @@ Potentially useful columns are:
 ## Joined collection
 
 All collections are joined into one in the file `/gscratch/dirac/DEEP/collab/image_collections/joined.collection`
+
+## Sharded collections
+
+Image collections are sharded on a per-target/night/detector basis in the directory `/gscratch/dirac/DEEP/collab/image_collections/sharded` with the format: `<target>/<night>/<night>_<target>_<detector>.collection`. For example, `/gscratch/dirac/DEEP/collab/image_collections/sharded/A0a/20190402/20190402_A0a_001.collection` contains metadata for detector `1` from all exposures on night `20190402` and target `A0a`.
