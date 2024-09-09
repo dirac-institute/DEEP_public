@@ -11,7 +11,9 @@ SSH: `ssh <netid>@epyc.astro.washington.edu`
 Link to Epyc directories:
 
 ```
+$ mkdir -p /epyc/users/$USER
 $ ln -s /epyc/users/$USER $HOME/epyc_home
+$ mkdir -p /epyc/ssd/users/$USER
 $ ln -s /epyc/ssd/users/$USER $HOME/epyc_ssd
 ```
 
