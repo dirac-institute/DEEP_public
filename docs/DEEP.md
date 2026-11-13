@@ -32,7 +32,7 @@ $ echo $PGPORT
 
 Install a jupyter kernel to run this setup when a jupyter kernel starts:
 ```
-$ ./bin/install_kernel.sh
+$ ./bin/install_kernel_user.sh
 ```
 
 Run a jupyter server on your compute node
